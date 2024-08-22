@@ -1,18 +1,19 @@
 import './App.css'
 import { Heading } from './components/Heading/index'
 import { UserIcon } from '../src/components/Icons/index'
-
+import { Inputs } from '../src/components/Inputs/index'
+import { Button } from '../src/components//Button/index'
 
 function App() {
 
   return (
     <>
-    <div className='bg-red-800 flex-col justify-center items-center w-14 h-20'>
+    <div className='border-spacing-3 border-6 border-blue-700 mt-16 py-6 px-8 inline-block justify-center items-center'>
       <Heading/>
       <UserIcon/>
-<p className='text-orange-600'> Quero saber se isso tá pegando mesmo</p>
+      <Inputs/>
+      <Button/>
     </div>
-      
     </>
   )
 }
