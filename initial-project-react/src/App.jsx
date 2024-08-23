@@ -8,12 +8,15 @@ function App() {
 
   return (
     <>
-    <div className='border-spacing-3 border-6 border-blue-700 mt-16 py-6 px-8 inline-block justify-center items-center'>
+    <div className=' bg-white bg-opacity-30 border-spacing-3 border-4 border-b-stone-300 mt-16 py-6 px-8 inline-block justify-center items-center'>
+      <form> 
       <Heading/>
       <UserIcon/>
       <Inputs/>
       <Button/>
+      </form>
     </div>
+    
     </>
   )
 }

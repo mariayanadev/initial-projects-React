@@ -6,11 +6,10 @@ export const Button = () => {
         </button> 
         <p className="pt-4 italic">  
             Esqueceu sua senha? 
-        <a href="passwordForget.index.jsx" className="text-base text-rose-600 font-bold not-italic"> 
+        <a href="#" className="text-base text-rose-600 font-bold not-italic underline"> 
             Clique aqui   
         </a>
         </p>
-        
     </div>
     )
 }
